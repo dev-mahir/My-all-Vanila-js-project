@@ -1,6 +1,7 @@
 // Age calculator 
  
 const ageCal_form = document.getElementById('ageCal-form');
+const show_age = document.getElementById('age-result');
 
 ageCal_form.addEventListener('submit',function(e){
     e.preventDefault();
@@ -96,6 +97,11 @@ ageCal_form.addEventListener('submit',function(e){
     }
 
 
-console.log(`
- ${b_year} years ${b_month}  months ${b_date} `);
+
+
+
+
+
+    show_age.innerHTML = `<p class="show_result">  ${b_year} years ${b_month}  months ${b_date} </p>`;
+
 });

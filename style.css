@@ -1,3 +1,21 @@
 body{
     background: #e2e2e2;
 }
+
+
+
+
+
+
+
+/* Age calculator  */
+.show_result{
+    background: #e2e2e2;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
